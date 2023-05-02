@@ -2,7 +2,7 @@
 A python-based RSA sign and verify tool
 
 ```
-usage: signverify.py [-h] [-k KEY] [-s SIGN] [-v VERIFY] [-sig SIGNATURE] [-out OUT]
+usage: rsa-signverify [-h] [-k KEY] [-s SIGN] [-v VERIFY] [-sig SIGNATURE] [-out OUT]
 optional arguments:
   -h, --help            show this help message and exit
   -k KEY, --key KEY     Define the RSA private or public key file in PEM format
