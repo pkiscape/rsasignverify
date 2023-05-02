@@ -40,8 +40,8 @@ If the signature does not match, verify() will raise an InvalidSignature excepti
 
 **Generate private key:**
 
-openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -out rsa2048.key
+```openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -out rsa2048.key```
 
 **Then you can derive public key from private key:**
 
-openssl rsa -in rsa2048.key -pubout -out rsa2048.pub
+```openssl rsa -in rsa2048.key -pubout -out rsa2048.pub```
