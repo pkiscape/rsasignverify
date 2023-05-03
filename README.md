@@ -1,6 +1,9 @@
 # rsa-signverify
 A python-based RSA sign and verify tool
 
+Requires cryptography https://pypi.org/project/cryptography/
+```pip3 install cryptography```
+
 ```
 usage: rsa-signverify [-h] [-k KEY] [-s SIGN] [-v VERIFY] [-sig SIGNATURE] [-out OUT]
 optional arguments:
