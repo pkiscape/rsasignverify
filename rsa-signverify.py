@@ -119,7 +119,7 @@ def main():
 				
 					with open(outfile, "wb") as signaturefile:
 						signaturefile.write(signature)
-					print(f"\n Signature written to {outfile}")
+					print(f"\nSignature written to {outfile}")
 
 
 		if args.verify:
