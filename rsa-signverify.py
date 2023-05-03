@@ -134,9 +134,6 @@ def main():
 						signedmessage = signedmessage.read()
 						verifyoperation = verify(mypublickey,signedmessage,sha2digest)
 
-		else:
-			print("Please use either '-s or --sign' to sign, or '-v or --verify' to verify")
-
 
 if __name__ == '__main__':
 	main()
