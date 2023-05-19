@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+'''
+=========================================
+
+RSA Sign/Verify
+
+=========================================
+
+
+@version    1 
+@author     pkiscape.com
+@link       https://github.com/pkiscape
+
+'''
+
 import argparse 
 from cryptography.hazmat.primitives import serialization,hashes 
 from cryptography.hazmat.primitives.asymmetric import dsa, rsa, padding
