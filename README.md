@@ -2,6 +2,7 @@
 A python-based RSA sign and verify tool
 
 Requires cryptography https://pypi.org/project/cryptography/
+Please ensure that you are using cryptography version 3.1 or greater
 
 ```pip3 install cryptography```
 
