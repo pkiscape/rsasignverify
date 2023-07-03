@@ -4,7 +4,12 @@ A python-based RSA sign and verify tool
 Requires cryptography https://pypi.org/project/cryptography/
 Please ensure that you are using cryptography version 3.1 or greater
 
-```pip3 install cryptography```
+
+```pip3 install --upgrade cryptography```
+
+or
+
+```pip install --upgrade cryptography```
 
 ```
 usage: rsa-signverify [-h] [-k KEY] [-s SIGN] [-v VERIFY] [-sig SIGNATURE] [-out OUT]
