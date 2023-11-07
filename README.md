@@ -1,4 +1,4 @@
-# rsa-signverify
+# rsasignverify
 A python-based RSA sign and verify tool
 
 Requires cryptography https://pypi.org/project/cryptography/
@@ -28,17 +28,17 @@ optional arguments:
 
 Generic signing using your RSA private key. It uses PSS padding (Probabilistic signature scheme). It saves the signature as signature.bin
 
-```rsa-signverify.py  -k private_key.pem -s data.png``` 
+```rsasignverify.py  -k private_key.pem -s data.png``` 
 
 Same as above, but define a file to write the signature to a custom file.
 
-```rsa-signverify.py -k private_key.pem -s data.png -out data.png.sig```
+```rsasignverify.py -k private_key.pem -s data.png -out data.png.sig```
 
 **====Verifying signatures====**
 
 When verifying signatures, pass the public key (public_key.pem) along with the actual message (data.png) and the signature (data.png.sig)
 
-```rsa-signverify.py -k public_key.pem -v data.png -sig data.png.sig```
+```rsasignverify.py -k public_key.pem -v data.png -sig data.png.sig```
 
 "Verification Successful" will appear when the signature and message can be verified with the public key
 
